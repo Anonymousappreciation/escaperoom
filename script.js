@@ -21,13 +21,12 @@ const GAME_DATA = {
       desk: {
         title: "Desk / Laptop",
         scenario:
-          "Maria notices Marcus struggling with a deadline and volunteers 30 minutes to organize records with him.",
-        question: "Which workplace value is being demonstrated?",
+          "Four employees are working on a report. Ana finishes before Ben. Ben finishes before Carla. Daniel finishes after Ana but before Carla. Who must finish last?",
         choices: [
-          "A. Teamwork",
-          "B. Laziness",
-          "C. Dishonesty",
-          "D. Disrespect"
+          "A. Ana",
+          "B. Carla",
+          "C. Ben",
+          "D. Daniel"
         ],
         correct: 0
       },
@@ -35,12 +34,12 @@ const GAME_DATA = {
       plant: {
         title: "Green Plant",
         scenario:
-          "An employee consistently arrives at 8:50 AM for a 9:00 AM shift.",
-        question: "Which professional conduct standard is shown?",
+          "A workplace security code has three numbers. The first number is greater than the second. The second number is greater than the third. The total is 12. The first number is 6. What is the code?.
+        ,
         choices: [
-          "A. Carelessness",
-          "B. Punctuality",
-          "C. Delay"
+          "A. 6-3-3",
+          "B. 6-4-2",
+          "C. 6-2-4"
         ],
         correct: 1
       },
@@ -48,12 +47,11 @@ const GAME_DATA = {
       lamp: {
         title: "Desk Lamp",
         scenario:
-          "An employee locks their workstation whenever stepping away to grab coffee.",
-        question: "Which protocol is being followed?",
+          "Five employees are candidate for team leader: A,B,C,D and E. A has more experience than B. C has more experience than A. D has less experience than B. E has more experience than C. Who has the most experience?",
         choices: [
-          "A. Information Security",
-          "B. Disregard",
-          "C. Waste"
+          "A. A",
+          "B. C",
+          "C. E"
         ],
         correct: 0
       },
@@ -61,12 +59,11 @@ const GAME_DATA = {
       notes: {
         title: "Wall Notes",
         scenario:
-          "Two employees communicate respectfully and work together to complete an important task.",
-        question: "Which corporate virtue is being demonstrated?",
+          "One employee deleted a file. Ana says:Ben deleted it. Ben says: Carlo deleted it. Carlo says:Ben is lying. Dana says: I didn't delete it.",
         choices: [
-          "A. Isolation",
-          "B. Teamwork",
-          "C. Competition"
+          "A. Ben",
+          "B. Carlo",
+          "C. Ana"
         ],
         correct: 1
       },
@@ -74,12 +71,11 @@ const GAME_DATA = {
       books: {
         title: "Office Books",
         scenario:
-          "Anna, Ben, and Carlo arrived at 8:00 AM, 8:15 AM, and 8:30 AM. Anna arrived 15 minutes before Ben. Carlo arrived after Ben.",
-        question: "Who arrived first and unlocked the office at 8:00 AM?",
+          "Four coworkers sit in a row. Amy sits immediately before Ben. Carla sits immediately before Dana. Ben is not beside Carla.",
         choices: [
-          "A. Anna (8:00 AM)",
-          "B. Ben (8:00 AM)",
-          "C. Carlo (8:00 AM)"
+          "A. Amy-Ben-Carla-Dana",
+          "B. Carla-Dana-Amy-Ben",
+          "C. Ben-Amy-Carla-Dana"
         ],
         correct: 0
       },
@@ -102,12 +98,12 @@ const GAME_DATA = {
       workspace: {
         title: "Workspace",
         scenario:
-          "An emergency liquid spill is spotted in the hallway.",
-        question: "What is your immediate responsibility?",
+          "Your alarm rings at 6:00 AM. you say 'just for 5 more minutes.' You wake up and it is 8:30 AM.",
+        question: "What happened?",
         choices: [
-          "A. Walk past it",
-          "B. Mark the area and notify facilities immediately",
-          "C. Ignore it"
+          "A. Your alarm clock betrayed you",
+          "B. You accidentally slept for 2.5 hours",
+          "C. You are dreaming related to your work"
         ],
         correct: 1
       },
